@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" href="/img/heading_logo.png" />
+  <title>Shree Ram Traders- The Name You Can Trust</title>
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Work+Sans:wght@100;300;400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="style.css">
+
+</head>
+
+<body>
+  <!-------- HEADER SECTION STARTS ---------->
+  <header class="header">
+    <div class="header_nav">
+      <img src="img/heading_logo.png" alt="Shree_Ram_Traders_logo" class='logo'>
+      <ul class="main_nav">
+        <li><a href="#product">Our Products</a></li>
+        <li><a href="#client"> Our Clients</a></li>
+        <li><a href="#contact"> Contact Us</a></li>
+      </ul>
+      <div class="mobile_menu_handler mobile_menu_handler__js">
+        <img src="img/menu.png" alt="menu" />
+      </div>
+      <div class="mobile_menu mobile_menu__js">
+        <div class="mobile_menu_close mobile_menu_close__js">X</div>
+        <a href="#product" class="mobile_menu_close__js">Our Products</a>
+        <a href="#client" class="mobile_menu_close__js"> Our Clients</a>
+        <a href="#contact" class="mobile_menu_close__js"> Contact Us</a>
+      </div>
+    </div>
+    <div class="header_box">
+      <div class="header_text_box">
+        <h1>Shree Ram Traders</h1>
+        <h2>A Name You Can Trust</h2>
+        <h3>We are one of the leading Office Infrastructure Supplier and Service Provider of furniture, electronic
+          items, stationary items, Electrical items, in all india through GEM.</h3>
+      </div>
+      <a href="#contact" class="btn btn_full">Order By Contacting Us</a>
+    </div>
+  </header>
+  <!--------- HEADER SECTION ENDS ---------->
+
+
+  <!------- PRODUCTS SECTION START ---------->
+  <section class="work_section">
+    <div class="row">
+      <h2 class="section_heading" id="product">Our Products</h2>
+      <h3 class="section_sub_heading">We deal in All Kind of Products </h3>
+    </div>
+    <ul class="work_portfolio work_portfolio__js"></ul>
+  </section>
+  <!------- PRODUCTS SECTION END ---------->
+
+  <!-------- Client Section Starts ------------->
+  <section class="partners_section">
+    <div class="row">
+      <h2 class="section_heading" id="client">
+        Our Clients
+      </h2>
+      <h3 class="section_sub_heading">We are trusted by</h3>
+    </div>
+    <div class="row">
+      <div class="client_container client_container__js"></div>
+    </div>
+  </section>
+  <!------------ Client Section Ends ------------>
+  <!-- Contact Section-->
+  <section class="contact_section">
+    <div class="row">
+      <h2 class="section_heading" id="contact">Get In Touch</h2>
+      <h3 class="section_sub_heading"> You Can Order By Contacting Us</h3>
+    </div>
+    <div class="contact_section_content">
+      <div class="contact_card">
+        <div class="contact_card_title">
+          <p>Address</p>
+          <div class="content_card_content">
+            <div class="content_card_content_icon">
+              <img src="img/address_icon.png" alt="mobile_logo" class="contact_card_content_icon">
+            </div>
+            <span>Kumar Complex Near Gate No 5 Ashok Nagar,Ranchi Jharkhand-834002</span>
+          </div>
+        </div>
+        <div class="contact_card_title">
+          <p>Mobile</p>
+          <div class="content_card_content">
+            <div class="content_card_content_icon">
+              <img src="img/cell-phone.png" alt="mobile_logo" class="contact_card_content_icon">
+            </div>
+            <span>+91-9334596311</span>
+          </div>
+          <div class="content_card_content">
+            <div class="content_card_content_icon">
+              <img src="img/cell-phone.png" alt="mobile_logo" class="contact_card_content_icon">
+            </div>
+            <span>+91-9471104345</span>
+          </div>
+        </div>
+        <div class="contact_card_title">
+          <p>Email</p>
+          <div class="content_card_content">
+            <div class="content_card_content_icon">
+              <img src="img/email.png" alt="mobile_logo" class="contact_card_content_icon">
+            </div>
+            <span>guptachandan278@gmail.com</span>
+          </div>
+        </div>
+      </div>
+      <div class="contact_map">
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d264.3437763486202!2d85.30101597856356!3d23.350556180681558!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sin!4v1624117491747!5m2!1sen!2sin"
+          style="border:0;" allowfullscreen="true" loading="lazy"></iframe>
+      </div>
+    </div>
+  </section>
+  <!--Contact Section Ends-->
+
+  <!------ Footer section ------>
+  <footer>
+    <div>
+      <ul class="footer_nav">
+        <li><a href="#product">Our Products</a></li>
+        <li><a href="#client">Our Clients</a></li>
+        <li><a href="#contact">Contact Us</a></li>
+      </ul>
+    </div>
+    <p>&copy; Copyright <span class="year__js"></span>. Shree Ram Traders.</p>
+  </footer>
+  <!---- Footer Section Ends ------>
+
+
+  <!-- SCRIPTS -->
+  <script>
+    /////////////// PRODUCTS ////////////////
+    const products = [
+      {
+        src: 'img/air_conditioner.jpg',
+        cardTile: 'Air Conditioners'
+      },
+      {
+        src: 'img/Laptop.jpg',
+        cardTile: 'Laptops and Desktops'
+      },
+      {
+        src: 'img/Furnitures.jpg',
+        cardTile: 'Furnitures'
+      },
+      {
+        src: 'img/networking_products.jpg',
+        cardTile: 'Networking Products'
+      },
+      {
+        src: 'img/office_chair.jpg',
+        cardTile: 'Official Furniture'
+      },
+      {
+        src: 'img/scientific_appliances.jpg',
+        cardTile: 'Scientific Appliances'
+      },
+      {
+        src: 'img/Solar.jpg',
+        cardTile: 'Solar Panel'
+      },
+      {
+        src: 'img/electrical_appliances.jpg',
+        cardTile: 'Electrical Appliances'
+      },
+    ];
+
+    const productContainer = document.querySelector('.work_portfolio__js');
+    if (productContainer) {
+      products.forEach(el => {
+        const productMarkup = `<li>
+            <figure class="portfolio_image">
+              <div class="portfolio_image__img">
+                <img src="${el.src}" alt="${el.cardTile}">
+              </div>
+              <p class="work_para">${el.cardTile}</p>
+            </figure>
+          </li>`;
+        productContainer.insertAdjacentHTML(
+          'beforeend',
+          productMarkup
+        );
+      });
+    }
+    ////////////////// PRODUCTS END //////////////////
+
+    ///////////////// CLIENTS ///////////////////////
+    const clients = [
+      {
+        src: 'img/indian_army.jpg',
+        name: 'Indian Army'
+      },
+      {
+        src: 'img/nagar_nigam.jpg',
+        name: 'Ranchi Nagar Nigam'
+      },
+      {
+        src: 'img/ITBP.jpg',
+        name: 'ITBP'
+      },
+      {
+        src: 'img/navodaya_vidyalaya.jpg',
+        name: 'Jawahar Navodaya Vidyalaya'
+      },
+      {
+        src: 'img/SSB.jpg',
+        name: 'SSB'
+      },
+      {
+        src: 'img/ranchi_airport.jpg',
+        name: 'Ranchi Airport'
+      },
+    ];
+
+    const clientContainer = document.querySelector('.client_container__js');
+    if (clientContainer) {
+      clients.forEach(el => {
+        const markup = `<div class="client_logo">
+          <img class="partner_logo" src="${el.src}" alt="${el.name}">
+        </div>`;
+        clientContainer.insertAdjacentHTML(
+          'beforeend',
+          markup
+        );
+      })
+    }
+    ///////////////// CLIENTS END ///////////////////
+
+    const yearContainer = document.querySelector('.year__js');
+    if (yearContainer) {
+      yearContainer.innerText = new Date().getFullYear();
+    }
+
+    const menuToggler = document.querySelector('.mobile_menu_handler__js');
+    const menu = document.querySelector('.mobile_menu__js');
+    const menuClose = document.querySelectorAll('.mobile_menu_close__js');
+    const toggleMenu = () => {
+      if (menu) {
+        menu.classList.toggle('mobile_menu_show');
+      }
+    }
+    if (menuToggler) {
+      menuToggler.addEventListener('click', toggleMenu);
+    }
+    if (menuClose) {
+      for (let i = 0; i < menuClose.length; ++i) {
+        menuClose[i].addEventListener('click', toggleMenu);
+      }
+    }
+
+  </script>
+  <!-- SCRIPTS END -->
+
+</body>
+
+</html>
